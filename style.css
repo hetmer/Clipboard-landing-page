@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+:root{
+    --Strong-Cyan: rgb(38, 186, 164);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+.top{
+    margin-top: -15rem;
+
+}
+
+.top img{
+    width: 6%;
+    margin-left: 43rem;
+}
+
+.top h1,p{
+    text-align: center;
+    margin-left: 27rem;
+    width: 40%;
+}
+
+.top h1{
+    font-size: 2.2rem;
+    color: var(--Dark-Grayish-Blue)
+}
+.top p{
+    line-height: 1.5rem;
+    color: var(--Grayish-Blue);
+    margin-top: 0.5rem;
+}
+
+.top-img{
+    width: 100%;
+}
+
+.btn{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn1{
+    width: 150px;
+    height: 40px;
+    background-color: var(--Strong-Cyan);
+    color: white;
+    border-radius: 2rem;
+    border-style: none;
+    box-shadow: 5px 2px  0px rgb(38, 186, 164) ;
+}
+
+.btn2{
+    width: 150px;
+    height: 40px;
+    background-color: var(--Light-Blue);
+    color: white;
+    border-radius: 2rem;
+    border-style: none;
+    box-shadow: 5px 2px  0px hsl(233, 100%, 69%);
+}
+
+
+.feat-top{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.feat-top h1{
+    color: var(--Dark-Grayish-Blue);
+}
+
+.feat-top p{
+    color: var(--Grayish-Blue);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.feat-mid{
+    display: flex;
+    margin-top: 5rem;
+}
+
+
+.mac img{
+    width: 50rem;
+    margin-left: -5rem;
+}
+
+.text{
+    margin-top: 4rem;
+}
+
+.card{
+    margin-left: 10rem;
+}
+
+.card h1{
+    font-size: 18px;
+    margin-top: 3rem; 
+    text-align: left; 
+    color: var(--Dark-Grayish-Blue); 
+}
+
+.card p{
+    margin-left: 1px;
+    text-align: left;
+    font-size: 14px; 
+    margin-top: 1rem;
+    color: var(--Grayish-Blue);
+}
+
+
+.feat-down{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.feat-down h1{
+    color: var(--Dark-Grayish-Blue);
+}
+
+.feat-down p{
+    color: var(--Grayish-Blue);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.feat-down img{
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.box1{
+    margin-left: 5rem;
+}
+
+.box2{
+    margin-left: -2rem;
+}
+
+
+.box1 img{
+    width: 8%;
+    margin-left: 3rem;
+}
+
+.box2 img{
+    width: 8%;
+    margin-left: 3rem;
+}
+
+.box3 img{
+    width: 8%;
+    margin-left: 3rem;
+}
+
+.box1 h1{
+    font-size: 20px;
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 1rem;
+}
+
+.box2 h1{
+    font-size: 20px;
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 1rem;
+    margin-left: -1rem;
+}
+
+.box3 h1{
+    font-size: 20px;
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 1rem;
+}
+
+.box1 p{
+    font-size: 10px;
+    margin-left: -12px;
+}
+
+.box2 p{
+    font-size: 10px;
+    margin-left: -1px;
+
+}
+
+.box3 p{
+    font-size: 10px;
+    margin-left: -12px;
+}
+
+.logos {
+    margin-top: 5rem;
+    display: flex;
+    padding: 20px;
+    gap: 10rem;
+    justify-content: center;
+}
+
+.feat-bot{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.feat-bot h1{
+    font-size: 2.2rem;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.feat-bot p{
+    line-height: 1.5rem;
+    color: var(--Grayish-Blue);
+    margin-top: 0.5rem;
+}
+
+.footer{
+    background-color: var(--Grayish-Blue);
+    margin-top: 4rem;
+    display: flex;
+    padding: 5rem;
+}
+
+.img img{
+    width: 70%;
+}
+
+.li1{
+    margin-left: -20rem;
+    line-height: 2rem;
+}
+
+.li2{
+    margin-left: -20rem;
+    line-height: 2rem;
+}
+
+.li3{
+    margin-left: -20rem;
+    line-height: 2rem;
+}
+
+.links{
+    margin-left: 15rem;
+    margin-top: 1rem;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
